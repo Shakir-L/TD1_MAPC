@@ -5,7 +5,6 @@ interface Document {
   + taille(): int
 }
 class Mémoire implements Document {
-1
   - titre: String
   + {static} this(titre: String, chapitres: List<Chapitre>)
   + titre(): String
